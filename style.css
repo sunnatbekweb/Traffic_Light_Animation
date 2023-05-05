@@ -45,6 +45,33 @@ li {
     box-shadow: inset 2px 2px 4px rgba(0, 0, 0, .4), inset -2px -2px 4px rgba(255, 255, 255, .6);
 }
 
+.red_hvr {
+    transition: all 0.5s ease;
+}
+
+.yellow_hvr {
+    transition: all 0.5s ease;
+}
+
+.green_hvr {
+    transition: all 0.5s ease;
+}
+
+.red_hvr:hover {
+    background-color: #FB000D;
+    box-shadow: 0 0 60px 10px #FB000D;
+}
+
+.yellow_hvr:hover {
+    background-color: #FED21D;
+    box-shadow: 0 0 60px 10px #FED21D;
+}
+
+.green_hvr:hover {
+    background-color: #7DFA04;
+    box-shadow: 0 0 60px 10px #7DFA04;
+}
+
 @keyframes red_light {
     100% {
         background: #FB000D;
